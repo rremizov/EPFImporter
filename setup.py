@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 from os.path import join, dirname
 
-import epfimporter
+import EPFImporter
 
 
 setup(
-    name='epfimporter',
-    version=epfimporter.__version__,
+    name='EPFImporter',
+    version=EPFImporter.__version__,
     packages=find_packages(),
     long_description=open(join(dirname(__file__), 'README.md')).read(),
 )
