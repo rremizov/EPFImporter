@@ -1,6 +1,6 @@
-EPFImporter/EPFConfig.json
-EPFImporter/EPFFlatConfig.json
-EPFImporter/EPFLogger.conf
+include EPFImporter/EPFConfig.json
+include EPFImporter/EPFFlatConfig.json
+include EPFImporter/EPFLogger.conf
 include MANIFEST.in
 include README.md
 recursive-include docs *
